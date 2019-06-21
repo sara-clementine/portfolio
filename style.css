@@ -47,15 +47,12 @@ h1 {
 .projects {
   background-color: #DBE3FF;
   width: 100%;
+  padding-bottom: 10%;
 }
 
 .projects1 {
-  display: grid;
-  grid-template-columns: 400px auto auto;
-}
-
-.projects1 h3,h4,a {
-  grid-column-start: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .projectImg {
@@ -152,6 +149,7 @@ span {
   display: flex;
   justify-content: center;
   padding: 10%;
+  flex-wrap: wrap;
 }
 
 .about p {
@@ -162,7 +160,7 @@ span {
   padding-left: 10%;
 }
 
-.work {
+.center {
   width: 70%;
   margin: auto;
 }
