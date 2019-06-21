@@ -53,13 +53,14 @@ h1 {
 .projects1 {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 5%;
 }
 
 .projectImg {
-  width: 300px;
+  width: 350px;
   border: 5px solid #2E364F;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-right: 5%;
 }
 
 .projects h1 {
