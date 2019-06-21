@@ -93,6 +93,7 @@ h4 {
 
 #contact h1 {
   color: white;
+  padding-left: 10%;
 }
 
 #contact li {
@@ -111,12 +112,14 @@ h4 {
 }
 
 .row img {
-  width: 500px;
+  width: 100%;
+  padding: 5%;
 }
 
 .lgimg {
-  width: 750px;
+  width: 90%;
   justify-content: center;
+  padding: 5%;
 }
 
 .problem, .process, .conclusion {
@@ -162,5 +165,10 @@ span {
 
 .center {
   width: 70%;
+  margin: auto;
+}
+
+.roleTable {
+  text-align: center;
   margin: auto;
 }
