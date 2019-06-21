@@ -49,8 +49,13 @@ h1 {
   width: 100%;
 }
 
-.projects img, h3, h4 {
-  display: inline-block;
+.projects1 {
+  display: grid;
+  grid-template-columns: 400px auto auto;
+}
+
+.projects1 h3,h4,a {
+  grid-column-start: 2;
 }
 
 .projectImg {
@@ -63,10 +68,6 @@ h1 {
 .projects h1 {
   margin-left: 10%;
   padding-top: 5%;
-}
-
-.projects h3,h4,a {
-  margin-left: 10%;
 }
 
 h2 {
@@ -97,10 +98,6 @@ h4 {
   color: white;
 }
 
-#contact h1,a {
-  padding-left: 10%;
-}
-
 #contact li {
   display: inline-block;
   margin: 5%;
@@ -109,8 +106,6 @@ h4 {
 
 .row {
   display: flex;
-  justify-content: center;
-  width: 60%;
   flex-wrap: wrap;
 }
 
@@ -127,8 +122,13 @@ h4 {
   justify-content: center;
 }
 
-.summary, .solution, .branding {
+.problem, .process, .conclusion {
   background-color: #DBE3FF;
+}
+
+.summary, .problem, .solution, .process, .branding, .conclusion {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 p {
@@ -160,4 +160,9 @@ span {
 
 .aboutHeader {
   padding-left: 10%;
+}
+
+.work {
+  width: 70%;
+  margin: auto;
 }
