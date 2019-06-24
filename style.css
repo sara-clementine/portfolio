@@ -34,7 +34,6 @@ h1 {
   padding-top: 5%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: 10%
 }
 
@@ -52,7 +51,6 @@ h1 {
 
 .projects1 {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 5%;
 }
 
@@ -145,6 +143,12 @@ h5 {
   font-weight: bold;
 }
 
+h6 {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #2E364F;
+}
+
 span {
   font-weight: bold;
 }
@@ -153,7 +157,7 @@ span {
   display: flex;
   justify-content: center;
   padding: 10%;
-  flex-wrap: wrap;
+  align-items:flex-start;
 }
 
 .about p {
@@ -172,4 +176,9 @@ span {
 .roleTable {
   text-align: center;
   margin: auto;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 5%;
 }
