@@ -45,6 +45,7 @@ h1 {
   padding-top: 10%;
   padding-left: 10%;
   padding-bottom: 50px;
+  padding-right: 10%;
 }
 
 .projects {
@@ -104,7 +105,7 @@ h4 {
 #contact li {
   display: inline-block;
   margin: 5%;
-  padding-left: 10%;
+  padding-left: 8%;
 }
 
 .row {
@@ -148,12 +149,6 @@ h5 {
   font-weight: bold;
 }
 
-h6 {
-  font-family: 'Karla', sans-serif;
-  font-size: 16px;
-  color: #2E364F;
-}
-
 span {
   font-weight: bold;
 }
@@ -182,6 +177,12 @@ span {
   padding: 5%;
 }
 
+.roleTable li {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  color: #2E364F;
+}
+
 .table-wrapper {
   display: flex;
   justify-content: center;
@@ -191,6 +192,10 @@ span {
 p {
   line-height: 1.5em;
   padding: 5%;
+}
+
+.persona {
+  max-width: 600px;
 }
 
 @media screen and (max-width: 600px) {
