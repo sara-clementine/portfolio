@@ -19,8 +19,9 @@ nav {
 nav ul a {
   text-decoration: none;
   font-family: 'Karla', sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #2E364F;
+  display: block;
 }
 
 nav li {
@@ -30,7 +31,7 @@ nav li {
 
 h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 48px;
+  font-size: 3em;
   color: #2E364F;
 }
 
@@ -39,6 +40,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10%;
+  align-items:flex-start;
 }
 
 .greeting {
@@ -74,20 +76,20 @@ h1 {
 
 h2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 36px;
+  font-size: 2.5em;
   color: #2E364F;
 }
 
 h3 {
   font-family: 'Karla', sans-serif;
-  font-size: 36px;
+  font-size: 2.25em;
   color: #2E364F;
   font-weight: bold;
 }
 
 h4 {
   font-family: 'Karla', sans-serif;
-  font-size: 28px;
+  font-size: 1.75em;
   color: #2E364F;
 }
 
@@ -106,6 +108,10 @@ h4 {
   display: inline-block;
   margin: 5%;
   padding-left: 8%;
+}
+
+#contact a {
+  display: block;
 }
 
 .row {
@@ -138,13 +144,13 @@ h4 {
 
 p {
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #2E364F;
 }
 
 h5 {
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #2E364F;
   font-weight: bold;
 }
@@ -179,7 +185,7 @@ span {
 
 .roleTable li {
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #2E364F;
 }
 
@@ -187,7 +193,6 @@ span {
   display: flex;
   justify-content: center;
 }
-
 
 p {
   line-height: 1.5em;
@@ -202,6 +207,9 @@ p {
   .intro {
     display:flex;
     flex-wrap: wrap;
+  }
+  nav li {
+    padding: 18px;
   }
   .intro img {
     width: 100%;
