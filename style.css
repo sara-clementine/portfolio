@@ -12,6 +12,12 @@ img {
   padding-top: 2%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav {
   text-align: right;
 }
@@ -45,9 +51,9 @@ h1 {
 
 .greeting {
   padding-top: 10%;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-bottom: 50px;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .projects {
@@ -60,6 +66,7 @@ h1 {
   display: flex;
   margin-top: 5%;
   align-items:flex-start;
+  margin-left: 5%;
 }
 
 .projectImg {
@@ -144,9 +151,10 @@ h4 {
 }
 
 .lgimg {
-  width: 90%;
+  max-width: 85%;
   justify-content: center;
-  padding: 5%;
+  margin-top: 5%;
+
 }
 
 .problem, .process, .conclusion {
@@ -173,6 +181,7 @@ h5 {
   font-size: 1em;
   color: #2E364F;
   font-weight: bold;
+  line-height: 2em;
 }
 
 span {
@@ -217,14 +226,18 @@ span {
 
 p {
   line-height: 1.5em;
-  padding: 5%;
+  padding-bottom: 5%;
 }
 
 .persona {
   max-width: 600px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .intro {
     display:flex;
     flex-wrap: wrap;
@@ -238,11 +251,12 @@ p {
   .projects1 {
     display:flex;
     flex-wrap: wrap;
-    padding-left: 10%;
+    text-align: center;
   }
   .projects1 img {
     width: 250px;
     margin: auto;
+    margin-bottom: 5%;
   }
   .about {
     display:flex;
