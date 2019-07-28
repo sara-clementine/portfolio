@@ -66,7 +66,7 @@ h1 {
   display: flex;
   margin-top: 5%;
   align-items:flex-start;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .projectImg {
@@ -152,6 +152,10 @@ h4 {
 
 .lgimg {
   max-width: 85%;
+  justify-content: center;
+  margin-top: 5%;
+  margin: 0 auto;
+  display: block;
 }
 
 .problem, .process, .conclusion {
@@ -198,6 +202,7 @@ span {
 
 .aboutHeader {
   padding-left: 10%;
+  padding-top: 10%;
 }
 
 .aboutText {
@@ -262,6 +267,9 @@ p {
   .about {
     display:flex;
     flex-wrap: wrap;
+  }
+  .aboutText {
+    max-width: 75%;
   }
   #contact li {
     padding-left: 5%;
