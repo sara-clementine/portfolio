@@ -152,9 +152,6 @@ h4 {
 
 .lgimg {
   max-width: 85%;
-  justify-content: center;
-  margin-top: 5%;
-
 }
 
 .problem, .process, .conclusion {
@@ -203,8 +200,12 @@ span {
   padding-left: 10%;
 }
 
+.aboutText {
+  max-width: 50%;
+}
+
 .center {
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
