@@ -148,7 +148,8 @@ h4 {
 }
 
 .column {
-  flex: 50%;
+  flex: 45%;
+  padding-left: 5%;
 }
 
 .row img {
@@ -242,6 +243,11 @@ p {
 
 .persona {
   max-width: 600px;
+  margin-top: 6%;
+}
+
+.survey {
+  margin-top: 5%;
 }
 
 @media screen and (max-width: 768px) {
