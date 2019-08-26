@@ -240,7 +240,7 @@ span {
 p {
   line-height: 1.5em;
   padding-bottom: 5%;
-  max-width: 300px;
+  max-width: 800px;
 }
 
 .persona {
@@ -255,6 +255,14 @@ p {
 .copyright {
   text-align: center;
   color: white;
+}
+
+.competitive {
+  max-width: 200px;
+  margin: auto;
+}
+
+.swot_button {
 }
 
 @media screen and (max-width: 768px) {
