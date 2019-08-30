@@ -94,6 +94,7 @@ h1 {
   padding: 15px 32px;
   display: inline-block;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 h2 {
@@ -262,7 +263,32 @@ p {
   margin: auto;
 }
 
-.swot_button {
+.swot {
+
+}
+
+.columnPersona {
+  flex: 45%;
+  padding-left: 4%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2E364F;
+}
+
+.columnPersona li {
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  color: #2E364F;
+  line-height: 1.5em;
+}
+
+.chart {
+  max-width: 75%;
+  margin: auto;
+}
+
+.persona {
+
 }
 
 @media screen and (max-width: 768px) {
