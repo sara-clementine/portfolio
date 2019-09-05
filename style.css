@@ -58,12 +58,17 @@ h1 {
   padding-left: 5%;
   padding-bottom: 50px;
   padding-right: 5%;
+  max-width: 1000px;
 }
 
 .projects {
   background-color: #DBE3FF;
   width: 100%;
   padding-bottom: 10%;
+}
+
+.projects-sub {
+  max-width: 700px;
 }
 
 .projects1 {
@@ -95,7 +100,8 @@ h1 {
   display: inline-block;
   margin-top: 5%;
   margin-bottom: 5%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -206,7 +212,7 @@ span {
 }
 
 .about p {
-  padding: 5%;
+  padding-left: 5%;
 }
 
 .aboutHeader {
@@ -246,7 +252,7 @@ p {
 }
 
 .persona {
-  max-width: 600px;
+  max-width: 300px;
   margin-top: 6%;
 }
 
@@ -290,6 +296,10 @@ p {
 
 .persona {
 
+}
+
+.center2 {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
